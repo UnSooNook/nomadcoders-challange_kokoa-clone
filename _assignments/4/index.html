@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Assignment No.4</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Create An Account</h1>
+        </header>
+        <form>
+            <label for="first-name">First Name <input id="first-name" type="text" placeholder="First Name" required /> </label><br />
+            <label for="last-name">Last Name <input id="last-name" type="text" placeholder="Last Name" required /> </label><br />
+            <label for="email">Email <input id="email" type="email" placeholder="Email" required /> </label><br />
+            <label for="username">Username <input id="username" type="text" placeholder="Username" required /> </label><br />
+            <label for="password">Password <input id="password" type="password" placeholder="Password" minlength="10" required /> </label><br />
+            <label for="birth-date">Birth date <input id="birth-date" type="date" placeholder="Birth date" required /> </label><br />
+            <label for="happy"
+                >How happy are you?
+                <input id="happy" min="0" max="100" step="1" value="50" list="steplist" type="range" required />
+                <datalist id="steplist">
+                    <option>0</option>
+                    <option>10</option>
+                    <option>20</option>
+                    <option>30</option>
+                    <option>40</option>
+                    <option>50</option>
+                    <option>60</option>
+                    <option>70</option>
+                    <option>80</option>
+                    <option>90</option>
+                    <option>100</option>
+                </datalist> </label
+            ><br />
+            <label for="color">What is your fav. color? <input id="color" type="color" required /> </label><br />
+            <input type="submit" value="Create Account" />
+        </form>
+    </body>
+</html>
