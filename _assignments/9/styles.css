@@ -1,0 +1,213 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    width: 300px;
+    border: 4px solid turquoise;
+    padding: 0px 15px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+header {
+    margin-top: 30px;
+}
+header i {
+    width: 33%;
+}
+header span {
+    width: 33%;
+    text-align: center;
+}
+header i:last-child {
+    text-align: right;
+}
+
+section {
+    margin: 30px 0px;
+}
+
+/* 메뉴바 */
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title__text {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* 현재 재생중 */
+
+.playing {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.playing__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.playing__title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.playing__subtitle {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.playing__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+}
+
+/* 버튼 */
+
+.btn-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    cursor: pointer;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    box-shadow: 0px 3px;
+}
+
+.btn span {
+    user-select: none;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.btn i {
+    user-select: none;
+}
+
+.btn-sm {
+    width: 50px;
+    border-radius: 30px;
+}
+
+.btn-lg {
+    border-radius: 15px;
+    width: 150px;
+}
+
+.btn:active {
+    transform: translateY(3px);
+    box-shadow: none;
+}
+
+/* 플레이리스트 */
+
+.playlist {
+    display: flex;
+    flex-direction: column;
+}
+
+.totalInfo {
+    display: flex;
+    align-items: center;
+}
+
+.album {
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px 10px 10px 0px;
+}
+.album-lg {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.totalInfo:first-child .album {
+    background-color: tomato;
+}
+.totalInfo:nth-child(2) .album {
+    background-color: pink;
+}
+.totalInfo:nth-child(3) .album {
+    background-color: blue;
+}
+.totalInfo:last-child .album {
+    background-color: turquoise;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+.info span:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+.info span:last-child {
+    opacity: 0.6;
+    margin: 2.5px 0px;
+}
+
+/* Warning */
+footer {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+    .title,
+    .playing,
+    .btn-block,
+    .playlist {
+        display: none;
+    }
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+        border: none;
+        background-color: turquoise;
+    }
+    footer {
+        animation: scaleup 1s ease-in-out infinite;
+    }
+}
+
+@media screen and (max-width: 501px) {
+    footer {
+        display: none;
+    }
+}
+
+@keyframes scaleup {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.5);
+    }
+    50%,
+    75%,
+    100% {
+        transform: scale(1);
+    }
+}
