@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap");
+
+@import "reset.css";
+@import "variables.css";
+
+/* pages */
+@import "pages/welcome.css";
+
+/*  components */
+@import "components/statusbar.css";
+
+body {
+    width: 100vw;
+    background-color: var(--main-background);
+}

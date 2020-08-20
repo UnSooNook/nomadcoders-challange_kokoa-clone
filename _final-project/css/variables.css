@@ -1,0 +1,8 @@
+:root {
+    /* colors */
+    --main-background: rgb(43, 43, 43);
+    --main-background-light: rgb(73, 73, 73);
+    --main-text: rgb(241, 241, 241);
+    --subtitle-alpha: rgba(241, 241, 241, 0.4);
+    --statusbar-alpha: rgba(0, 0, 0, 0.3);
+}
