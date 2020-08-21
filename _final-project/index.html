@@ -8,47 +8,43 @@
 </head>
 
 <body>
-    <section class="normal-screen">
-        <!-- Status Bar (start) -->
-        <div class="statusbar">
-            <div class="statusbar__column">
-                <span class="statusbar__clock">00:00</span>
-                <span class="statusbar__telecom">No Service</span>
-            </div>
-            <div class="statusbar__column">
-                <i class="far fa-bell"></i>
-                <i class="fas fa-wifi"></i>
-                <i class="fab fa-bluetooth-b"></i>
-                <span class="statusbar__battery">98%</span>
-                <i class="fas fa-battery-three-quarters"></i>
-            </div>
+    <!-- Status Bar (start) -->
+    <div class="statusbar">
+        <div class="statusbar__column">
+            <span class="statusbar__clock">00:00</span>
+            <span class="statusbar__telecom">No Service</span>
         </div>
-        <div class="statusbar__margin"></div>
-        <!-- Status Bar (end) -->
+        <div class="statusbar__column">
+            <i class="far fa-bell"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fab fa-bluetooth-b"></i>
+            <span class="statusbar__battery">98%</span>
+            <i class="fas fa-battery-three-quarters"></i>
+        </div>
+    </div>
+    <div class="statusbar__margin"></div>
+    <!-- Status Bar (end) -->
 
-        <!--  Welcome Page (start) -->
-        <div class="welcome__header">
-            <h1>Welcome to Talk</h1>
-            <span>Create your username and Enjoy!</span>
-        </div>
-        <form class="welcome__form" action="friends.html" method="GET">
-            <input class="welcome__input" type="text" name="username" placeholder="Username" autocomplete="off"
-                required />
-            <input class="welcome__btn" type="submit" value="Log In" />
-        </form>
-        <span class="welcome__help">
-            <a href="help.html">Help</a>
-        </span>
-        <!--  Welcome Page (end) -->
-    </section>
+    <!--  Welcome Page (start) -->
+    <div class="welcome__header">
+        <h1>Welcome to Talk</h1>
+        <span>Create your username and Enjoy!</span>
+    </div>
+    <form class="welcome__form" action="friends.html" method="GET">
+        <input class="welcome__input" type="text" name="username" placeholder="Username" autocomplete="off" required />
+        <input class="welcome__btn" type="submit" value="Log In" />
+    </form>
+    <span class="welcome__help">
+        <a href="help.html">Help</a>
+    </span>
+    <!--  Welcome Page (end) -->
+
     <footer class="big-screen">
         <div>
             <div>
-                <div>
-                    <img class="big-screen__img"
-                        src="https://upload3.inven.co.kr/upload/2020/04/30/bbs/i014570602943.gif" loop="infinite" />
-                    <span class="big-screen__text">REDUCE Screen Size<br>or...</span>
-                </div>
+                <img class="big-screen__img" src="https://upload3.inven.co.kr/upload/2020/04/30/bbs/i014570602943.gif"
+                    loop="infinite" />
+                <span class="big-screen__text">REDUCE Screen Size<br>or...</span>
             </div>
         </div>
     </footer>

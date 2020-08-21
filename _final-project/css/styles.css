@@ -15,7 +15,9 @@
 body {
     /* width: 100vw; */
     background-color: var(--main-background);
-    height: 200vh;
+    width: 100vw;
+    height: 100vh;
+    /* height: 200vh; */
 }
 
 @media screen and (max-width: 513px) {
@@ -25,23 +27,18 @@ body {
 }
 
 @media screen and (min-width: 512px) {
-    .normal-screen {
-        display: none;
-    }
-    body {
+    .big-screen {
         width: 100vw;
         height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-    }
-    .big-screen {
+        position: absolute;
+        z-index: 99;
         font-size: 25px;
         color: var(--main-text);
         display: flex;
         justify-content: center;
         align-items: center;
+        top: 0;
+        background-color: var(--main-background);
     }
     .big-screen div {
         display: flex;
@@ -49,20 +46,15 @@ body {
         align-items: center;
         border-radius: 50%;
     }
-    .big-screen > div {
-        width: 1024px;
-        height: 1024px;
-        background-color: var(--main-background);
-    }
 
-    .big-screen > div > div {
+    .big-screen > div {
         width: 512px;
         height: 512px;
         background-color: #48494a;
         animation: alert 1s ease-in-out infinite;
     }
 
-    .big-screen > div > div > div {
+    .big-screen > div > div {
         flex-direction: column;
         width: 384px;
         height: 384px;
