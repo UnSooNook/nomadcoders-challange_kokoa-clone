@@ -64,4 +64,5 @@
     display: flex;
     justify-content: center;
     color: var(--subtitle-alpha);
+    text-decoration: underline;
 }

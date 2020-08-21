@@ -8,8 +8,11 @@
 
 /*  components */
 @import "components/statusbar.css";
+@import "components/titlebar.css";
+@import "components/navigationbar.css";
 
 body {
-    width: 100vw;
+    /* width: 100vw; */
     background-color: var(--main-background);
+    height: 200vh;
 }

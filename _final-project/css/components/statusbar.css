@@ -17,6 +17,6 @@
 }
 
 .statusbar__margin {
-    height: 1.5em;
+    height: var(--margin-statusbar);
     background-color: var(--main-background);
 }
