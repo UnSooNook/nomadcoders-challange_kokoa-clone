@@ -7,7 +7,9 @@
     --statusbar-alpha: rgba(0, 0, 0, 0.3);
     --border-up: #767676;
     --border-down: #212121;
+    --badge-color: rgb(255, 67, 67);
 
     /* margins */
     --margin-statusbar: 1.5em;
+    --margin-navbar: 4em;
 }

@@ -1,0 +1,12 @@
+.page-line {
+    margin: 0.5em 1em;
+    border-top: 0.2em solid var(--border-up);
+    border-radius: 0.5em;
+    padding: 0.3em 0.5em;
+    user-select: none;
+}
+
+.page-line span {
+    color: var(--main-text);
+    font-size: 0.7em;
+}

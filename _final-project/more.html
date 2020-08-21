@@ -28,16 +28,94 @@
             <div class="titlebar__column">
                 <span class="titlebar__title">More</span>
             </div>
-            <!-- <div class="titlebar__column">
-                <i class="fas fa-search"></i>
-                <i class="fas fa-plus"></i>
+            <div class="titlebar__column">
+                <i class="far fa-question-circle"></i>
                 <i class="fas fa-cog"></i>
-            </div> -->
+            </div>
         </div>
         <div class="titlebar__margin"></div>
         <!-- Title Bar (end) -->
 
+        <!-- More Page (start) -->
+        <main class="more-page">
+            <div class="user">
+                <div class="user__column">
+                    <img class="user__picture user__picture-lg" src="img/no-user-image.jpg" />
+                    <div class="user__info">
+                        <span class="user__name user__name-bold username">Username</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page-line">
+                <span>Apps</span>
+            </div>
+
+            <div class="more-page__apps">
+                <div class="more-page__apps__row">
+                    <div class="more-page__apps__item">
+                        <i class="far fa-envelope"></i>
+                        <span>E-Mail</span>
+                    </div>
+                    <div class="more-page__apps__item">
+                        <i class="fas fa-music"></i>
+                        <span>Music</span>
+                    </div>
+                    <div class="more-page__apps__item">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <span>Map</span>
+                    </div>
+                    <div class="more-page__apps__item">
+                        <i class="fas fa-shopping-basket"></i>
+                        <span>Shop</span>
+                    </div>
+                </div>
+                <div class="more-page__apps__row">
+                    <div class="more-page__apps__item">
+                        <i class="fab fa-google-play"></i>
+                        <span>Google Play</span>
+                    </div>
+                    <div class="more-page__apps__item">
+                        <i class="fab fa-twitch"></i>
+                        <span>Twitch</span>
+                    </div>
+                    <div class="more-page__apps__item">
+                        <i class="fab fa-facebook-square"></i>
+                        <span>Facebook</span>
+                    </div>
+                    <div class="more-page__apps__item">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </div>
+                </div>
+                <div class="more-page__apps__row">
+                    <div class="more-page__apps__item">
+                        <i class="fab fa-amazon"></i>
+                        <span>Amazon</span>
+                    </div>
+                    <div class="more-page__apps__item">
+                        <i class="fab fa-youtube"></i>
+                        <span>Youtube</span>
+                    </div>
+                    <div class="more-page__apps__item">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </div>
+                    <div class="more-page__apps__item"></div>
+                </div>
+            </div>
+
+            <div class="page-line">
+                <span>Events</span>
+            </div>
+
+            <!-- TODO : Events(광고) 추가 -->
+            <!-- 순욱 여기 부분 부탁해 -->
+        </main>
+        <!-- More Page (end) -->
+
         <!-- Navigation Bar (start) -->
+        <div class="navbar__margin"></div>
         <nav class="navbar">
             <a class="navbar__column navbar__column-nonselected" href="friends.html">
                 <i class="far fa-user"></i>
@@ -53,7 +131,20 @@
             </a>
         </nav>
         <!-- Navigation Bar (end) -->
+
+        <!-- Screen Size Notice (start) -->
+        <footer class="big-screen">
+            <div>
+                <div>
+                    <img class="big-screen__img" src="https://upload3.inven.co.kr/upload/2020/04/30/bbs/i014570602943.gif" loop="infinite" />
+                    <span class="big-screen__text">REDUCE Screen Size<br />or...</span>
+                </div>
+            </div>
+        </footer>
+        <!-- Screen Size Notice (end) -->
+
         <script src="js/clock.js"></script>
+        <script src="js/load-username.js"></script>
         <script src="https://kit.fontawesome.com/e863981bbc.js" crossorigin="anonymous"></script>
     </body>
 </html>

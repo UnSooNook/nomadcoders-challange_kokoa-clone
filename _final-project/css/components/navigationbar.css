@@ -44,3 +44,8 @@
     transform: translateY(0.15em);
     color: var(--main-text);
 }
+
+.navbar__margin {
+    height: var(--margin-navbar);
+    background-color: var(--main-background);
+}

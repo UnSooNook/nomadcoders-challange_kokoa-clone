@@ -1,0 +1,87 @@
+.user {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+}
+
+.user__column {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.user__column:nth-child(1) {
+    justify-content: flex-start;
+}
+
+.user__column:nth-child(2) {
+    justify-content: flex-end;
+}
+
+.user__picture {
+    padding: 0.5em 1em;
+    height: 4em;
+    width: 4em;
+    border-radius: 2em;
+}
+
+.user__picture-lg {
+    height: 6em;
+    width: 6em;
+    border-radius: 2.5em;
+}
+
+.user__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.user__name {
+    color: var(--main-text);
+    font-size: 1em;
+}
+
+.user__name-bold {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.user__message {
+    padding-top: 0.5em;
+    font-size: 0.8em;
+    color: var(--subtitle-alpha);
+}
+
+.user__icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0.5em 1em;
+}
+
+.user__time {
+    font-size: 0.8em;
+    color: var(--subtitle-alpha);
+    padding-bottom: 0.5em;
+}
+
+.user__badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5em;
+    height: 1.5em;
+    font-size: 0.8em;
+    color: var(--main-text);
+    background-color: var(--badge-color);
+    border-radius: 2em;
+}
+
+.user__badge-blank {
+    background-color: inherit;
+}
