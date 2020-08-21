@@ -1,0 +1,68 @@
+.welcome__header {
+    color: var(--main-text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+    user-select: none;
+}
+
+.welcome__header h1 {
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.welcome__header span {
+    color: var(--subtitle-alpha);
+    margin-bottom: 5em;
+}
+
+.welcome__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome__input,
+.welcome__btn {
+    width: 75%;
+    padding: 1em 2em;
+    font-size: 1em;
+}
+
+.welcome__input {
+    margin-bottom: 1em;
+    background-color: var(--main-background);
+    border-radius: 1em;
+    color: var(--main-text);
+}
+
+.welcome__input::placeholder {
+    color: var(--subtitle-alpha);
+}
+
+.welcome__input:focus::placeholder {
+    color: var(--main-background);
+}
+
+.welcome__btn {
+    margin-bottom: 3em;
+    background-color: var(--main-background-light);
+    border-radius: 1em;
+    color: var(--main-text);
+    font-weight: 700;
+}
+
+.welcome__btn:active {
+    background-color: var(--main-background);
+}
+
+.welcome__help {
+    display: flex;
+    justify-content: center;
+    color: var(--subtitle-alpha);
+    text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+<html lang="kr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcome</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <!-- Status Bar (start) -->
+        <div class="statusbar">
+            <div class="statusbar__column">
+                <span class="statusbar__clock">00:00</span>
+                <span class="statusbar__telecom">No Service</span>
+            </div>
+            <div class="statusbar__column">
+                <i class="far fa-bell"></i>
+                <i class="fas fa-wifi"></i>
+                <i class="fab fa-bluetooth-b"></i>
+                <span class="statusbar__battery">98%</span>
+                <i class="fas fa-battery-three-quarters"></i>
+            </div>
+        </div>
+        <div class="statusbar__margin"></div>
+        <!-- Status Bar (end) -->
+
+        <!--  Welcome Page (start) -->
+        <div class="welcome__header">
+            <h1>Welcome to Talk</h1>
+            <span>Create your username and Enjoy!</span>
+        </div>
+        <form class="welcome__form" action="friends.html" method="GET">
+            <input class="welcome__input" type="text" name="username" placeholder="Username" autocomplete="off" required />
+            <input class="welcome__btn" type="submit" value="Log In" />
+        </form>
+        <span class="welcome__help">
+            <a href="help.html">Help</a>
+        </span>
+        <!--  Welcome Page (end) -->
+
+        <script src="js/clock.js"></script>
+        <script src="js/login.js"></script>
+        <script src="https://kit.fontawesome.com/e863981bbc.js" crossorigin="anonymous"></script>
+    </body>
+</html>

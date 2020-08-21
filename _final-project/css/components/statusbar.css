@@ -1,0 +1,22 @@
+.statusbar {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--statusbar-alpha);
+    padding: 0.25em 0.25em;
+    font-size: 1em;
+    color: var(--main-text);
+    user-select: none;
+}
+
+.statusbar__column span {
+    font-weight: 700;
+}
+
+.statusbar__margin {
+    height: var(--margin-statusbar);
+    background-color: var(--main-background);
+}
