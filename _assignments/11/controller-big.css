@@ -1,0 +1,78 @@
+.controller-big__play-bar {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.controller-big__play-bar__time {
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    font-size: 7px;
+    color: rgb(165, 165, 165);
+    padding: 0px 15px;
+}
+
+.controller-big__play-bar__bar__total {
+    width: 225px;
+    height: 3px;
+    background-color: #ddddde;
+    border-radius: 1.5px;
+    margin-top: 10px;
+}
+
+.controller-big__play-bar__bar__play {
+    align-self: start;
+    width: 135px;
+    height: 3px;
+    background-color: #222222;
+    border-radius: 1.5px;
+    transform: translateY(-3px);
+}
+
+.controller-big__play-bar__bar__now {
+    width: 7px;
+    height: 7px;
+    background-color: #222222;
+    border-radius: 3.5px;
+    transform: translateY(-8px);
+    margin-left: 131.5px;
+}
+
+.controller-big__control {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.controller-big__control .fa-step-backward,
+.controller-big__control .fa-step-forward {
+    transform: scale(1.2, 0.95);
+    margin: 0px 25px;
+}
+
+.controller-big__control__play {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 10px 3px #ddddde;
+}
+.controller-big__control__play .fa-play {
+    margin-top: 1px;
+    margin-left: 3px;
+}
+
+.controller-big__control .fa-redo-alt,
+.controller-big__control .fa-random {
+    color: rgba(200, 200, 200);
+}

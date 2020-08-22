@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>You Are Awesome!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="screen">
+        <header class="upperbar">
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-search"></i>
+        </header>
+        <section class="artist">
+            <img class="artist__img"
+                src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/c/b/cb9b8b7298b2cb12048887d0a43ce8c5_1499945352.jpg" />
+            <span class="artist__name">Tyler, The Creator</span>
+            <span class="artist__genre">Rap, Hip-Hop</span>
+            <div class="artist__btn">
+                <button class="artist__btn__shuffle">Shuffle</button>
+                <button class="artist__btn__follow">
+                    <i class="fas fa-heart"></i>
+                    <span>212 971</span>
+                </button>
+            </div>
+        </section>
+        <section class="playlist">
+            <div class="playlist__song">
+                <div>
+                    <img class="playlist__song__img"
+                        src="https://images.genius.com/3e7ba5dd1a815d574211c0f99293e784.1000x1000x1.jpg" />
+                </div>
+                <div class="playlist__song__info">
+                    <span class="playlist__artist">Tyler, the Creator</span>
+                    <span class="playlist__name">EARTHQUAKE</span>
+                </div>
+                <div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+            </div>
+            <div class="playlist__song playlist__song--playing">
+                <div>
+                    <img class="playlist__song__img playlist__song__img--playing"
+                        src="https://images-na.ssl-images-amazon.com/images/I/91OeYnLoCJL._SL1500_.jpg" />
+                    <i class="fas fa-music playlist__song__icon--playing"></i>
+                    <!-- <i class="fas fa-signal playlist__song--playing"></i> -->
+                </div>
+                <div class="playlist__song__info">
+                    <span class="playlist__artist">Tyler, the Creator</span>
+                    <span class="playlist__name">NOVEMBER</span>
+                </div>
+                <div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+            </div>
+            <div class="playlist__song">
+                <div>
+                    <img class="playlist__song__img"
+                        src="https://images-na.ssl-images-amazon.com/images/I/91OeYnLoCJL._SL1500_.jpg" />
+                </div>
+                <div class="playlist__song__info">
+                    <span class="playlist__artist">Tyler, the Creator</span>
+                    <span class="playlist__name">911</span>
+                </div>
+                <div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+            </div>
+            <div class="playlist__song">
+                <div>
+                    <img class="playlist__song__img"
+                        src="https://images-na.ssl-images-amazon.com/images/I/813pt0Vr6xL._AC_SL1500_.jpg" />
+                </div>
+                <div class="playlist__song__info">
+                    <span class="playlist__artist">Tyler, the Creator</span>
+                    <span class="playlist__name">WOLF</span>
+                </div>
+                <div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+            </div>
+        </section>
+        <section class="controller-mini">
+            <div class="controller-mini__info">
+                <span class="playlist__artist">Tyler, the Creator</span>
+                <span class="playlist__name playlist__name--playing">NOVEMBER</span>
+            </div>
+            <div class="controller-mini__control">
+                <i class="fas fa-step-backward"></i>
+                <i class="fas fa-pause fa-2x"></i>
+                <i class="fas fa-step-forward"></i>
+            </div>
+        </section>
+    </section>
+    <section class="screen">
+        <header class="upperbar">
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </header>
+        <section class="now-playing">
+            <img class="now-playing__img"
+                src="https://images-na.ssl-images-amazon.com/images/I/91OeYnLoCJL._SL1500_.jpg" />
+            <span class="now-playing__name">November</span>
+            <span class="now-playing__artist">Tyler, the Creator</span>
+        </section>
+        <section class="controller-big">
+            <div class="controller-big__play-bar">
+                <div class="controller-big__play-bar__time">
+                    <span>1:56</span>
+                    <span>2:21</span>
+                </div>
+                <div class="controller-big__play-bar__bar">
+                    <div class="controller-big__play-bar__bar__total"></div>
+                    <div class="controller-big__play-bar__bar__play"></div>
+                    <div class="controller-big__play-bar__bar__now"></div>
+                </div>
+            </div>
+            <div class="controller-big__control">
+                <i class="fas fa-redo-alt"></i>
+                <i class="fas fa-step-backward"></i>
+                <div class="controller-big__control__play">
+                    <i class="fas fa-play"></i>
+                </div>
+                <i class="fas fa-step-forward"></i>
+                <i class="fas fa-random"></i>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>

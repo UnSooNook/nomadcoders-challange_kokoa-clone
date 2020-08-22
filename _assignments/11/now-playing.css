@@ -1,0 +1,25 @@
+.now-playing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.now-playing__img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 30px 0px #ff987c;
+}
+
+.now-playing__name {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.now-playing__artist {
+    margin-top: 15px;
+    color: rgb(165, 165, 165);
+    font-size: 11px;
+}

@@ -1,0 +1,57 @@
+.artist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.artist__img {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    box-shadow: 0px 5px 15px 5px #ffdbd2;
+}
+
+.artist__name {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.artist__genre {
+    margin-top: 15px;
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+.artist__btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+}
+
+.artist__btn__shuffle {
+    width: 90px;
+    margin: 0px 5px;
+    border-radius: 18px;
+    background-color: #222222;
+    color: white;
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0px 3px 5px 1px rgb(228, 227, 229);
+}
+
+.artist__btn__follow {
+    width: 90px;
+    margin: 0px 5px;
+    border-radius: 18px;
+    background-color: white;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0px 3px 5px 1px rgb(228, 227, 229);
+}
+.artist__btn__follow span {
+    opacity: 0.6;
+    font-size: 12px;
+}

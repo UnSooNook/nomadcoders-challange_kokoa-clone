@@ -1,0 +1,38 @@
+.controller-mini {
+    width: 250px;
+    height: 50px;
+    background-color: #222222;
+    border-radius: 25px;
+    box-shadow: 0px 3px 10px 5px #ddddde;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controller-mini__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.playlist__name--playing {
+    color: white;
+    font-weight: 400;
+}
+
+.controller-mini__control {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.controller-mini__control i {
+    margin-left: 10px;
+}
+.controller-mini__control .fa-step-backward,
+.controller-mini__control .fa-step-forward {
+    transform: scale(0.75, 0.6);
+}
+.controller-mini__control .fa-pause {
+    transform: scale(0.4, 0.6);
+}
