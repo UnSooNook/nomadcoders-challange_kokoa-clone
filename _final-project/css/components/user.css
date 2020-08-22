@@ -85,3 +85,7 @@
 .user__badge-blank {
     background-color: inherit;
 }
+
+.user__group {
+    padding-left: 0.5em;
+}
