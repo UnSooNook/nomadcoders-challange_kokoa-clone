@@ -1,251 +1,255 @@
 <html lang="kr">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Chats</title>
-        <link rel="stylesheet" href="css/styles.css" />
-    </head>
-    <body>
-        <!-- Status Bar (start) -->
-        <div class="statusbar">
-            <div class="statusbar__column">
-                <span class="statusbar__clock">00:00</span>
-                <span class="statusbar__telecom">No Service</span>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <!-- Status Bar (start) -->
+    <div class="statusbar">
+        <div class="statusbar__column">
+            <span class="statusbar__clock">00:00</span>
+            <span class="statusbar__telecom">No Service</span>
+        </div>
+        <div class="statusbar__column">
+            <i class="far fa-bell"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fab fa-bluetooth-b"></i>
+            <span class="statusbar__battery">98%</span>
+            <i class="fas fa-battery-three-quarters"></i>
+        </div>
+    </div>
+    <div class="statusbar__margin"></div>
+    <!-- Status Bar (end) -->
+
+    <!-- Title Bar (start) -->
+    <div class="titlebar">
+        <div class="titlebar__column">
+            <span class="titlebar__title">Chats</span>
+        </div>
+        <div class="titlebar__column">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-plus"></i>
+            <i class="fas fa-cog"></i>
+        </div>
+    </div>
+    <div class="titlebar__margin"></div>
+    <!-- Title Bar (end) -->
+
+    <!-- Chats Page (start) -->
+    <main class="chats-page">
+        <div class="user">
+            <div class="user__column">
+                <img class="user__picture" src="img/no-user-image.jpg" />
+                <div class="user__info">
+                    <span class="user__name">Friend 1</span>
+                    <span class="user__message">Here is my new ph num...</span>
+                </div>
             </div>
-            <div class="statusbar__column">
-                <i class="far fa-bell"></i>
-                <i class="fas fa-wifi"></i>
-                <i class="fab fa-bluetooth-b"></i>
-                <span class="statusbar__battery">98%</span>
-                <i class="fas fa-battery-three-quarters"></i>
+            <div class="user__column">
+                <div class="user__icons">
+                    <span class="user__time">14:12</span>
+                    <div class="user__badge">3</div>
+                </div>
             </div>
         </div>
-        <div class="statusbar__margin"></div>
-        <!-- Status Bar (end) -->
 
-        <!-- Title Bar (start) -->
-        <div class="titlebar">
-            <div class="titlebar__column">
-                <span class="titlebar__title">Chats</span>
+        <div class="user">
+            <div class="user__column">
+                <img class="user__picture" src="img/no-user-image.jpg" />
+                <div class="user__info">
+                    <span class="user__name">Mom</span>
+                    <span class="user__message">dont worry!</span>
+                </div>
             </div>
-            <div class="titlebar__column">
-                <i class="fas fa-search"></i>
-                <i class="fas fa-plus"></i>
-                <i class="fas fa-cog"></i>
+            <div class="user__column">
+                <div class="user__icons">
+                    <span class="user__time">14:01</span>
+                    <div class="user__badge user__badge-blank"></div>
+                </div>
             </div>
         </div>
-        <div class="titlebar__margin"></div>
-        <!-- Title Bar (end) -->
 
-        <!-- Chats Page (start) -->
-        <main class="chats-page">
-            <div class="user">
-                <div class="user__column">
-                    <img class="user__picture" src="img/no-user-image.jpg" />
-                    <div class="user__info">
-                        <span class="user__name">Friend 1</span>
-                        <span class="user__message">Here is my new ph num...</span>
-                    </div>
-                </div>
-                <div class="user__column">
-                    <div class="user__icons">
-                        <span class="user__time">14:12</span>
-                        <div class="user__badge">3</div>
-                    </div>
+        <div class="user">
+            <div class="user__column">
+                <img class="user__picture" src="img/no-user-image.jpg" />
+                <div class="user__info">
+                    <span class="user__name">Brother</span>
+                    <span class="user__message">??</span>
                 </div>
             </div>
-
-            <div class="user">
-                <div class="user__column">
-                    <img class="user__picture" src="img/no-user-image.jpg" />
-                    <div class="user__info">
-                        <span class="user__name">Mom</span>
-                        <span class="user__message">dont worry!</span>
-                    </div>
-                </div>
-                <div class="user__column">
-                    <div class="user__icons">
-                        <span class="user__time">14:01</span>
-                        <div class="user__badge user__badge-blank"></div>
-                    </div>
+            <div class="user__column">
+                <div class="user__icons">
+                    <span class="user__time">13:58</span>
+                    <div class="user__badge">1</div>
                 </div>
             </div>
+        </div>
 
-            <div class="user">
-                <div class="user__column">
-                    <img class="user__picture" src="img/no-user-image.jpg" />
-                    <div class="user__info">
-                        <span class="user__name">Brother</span>
-                        <span class="user__message">??</span>
-                    </div>
-                </div>
-                <div class="user__column">
-                    <div class="user__icons">
-                        <span class="user__time">13:58</span>
-                        <div class="user__badge">1</div>
-                    </div>
+        <div class="user">
+            <div class="user__column">
+                <img class="user__picture" src="img/no-user-image.jpg" />
+                <div class="user__info">
+                    <span class="user__name">Friend 2</span>
+                    <span class="user__message">haha</span>
                 </div>
             </div>
-
-            <div class="user">
-                <div class="user__column">
-                    <img class="user__picture" src="img/no-user-image.jpg" />
-                    <div class="user__info">
-                        <span class="user__name">Friend 2</span>
-                        <span class="user__message">haha</span>
-                    </div>
-                </div>
-                <div class="user__column">
-                    <div class="user__icons">
-                        <span class="user__time">13:42</span>
-                        <div class="user__badge user__badge-blank"></div>
-                    </div>
+            <div class="user__column">
+                <div class="user__icons">
+                    <span class="user__time">13:42</span>
+                    <div class="user__badge user__badge-blank"></div>
                 </div>
             </div>
+        </div>
 
-            <div class="user">
-                <div class="user__column">
-                    <img class="user__picture" src="img/no-user-image.jpg" />
-                    <div class="user__info">
-                        <span class="user__name">Friend 3</span>
-                        <span class="user__message">Why?</span>
-                    </div>
-                </div>
-                <div class="user__column">
-                    <div class="user__icons">
-                        <span class="user__time">13:10</span>
-                        <div class="user__badge">2</div>
-                    </div>
+        <div class="user">
+            <div class="user__column">
+                <img class="user__picture" src="img/no-user-image.jpg" />
+                <div class="user__info">
+                    <span class="user__name">Friend 3</span>
+                    <span class="user__message">Why?</span>
                 </div>
             </div>
-
-            <div class="user">
-                <div class="user__column">
-                    <img class="user__picture" src="img/no-user-image.jpg" />
-                    <div class="user__info">
-                        <span class="user__name">Friend 4</span>
-                        <span class="user__message">see later</span>
-                    </div>
-                </div>
-                <div class="user__column">
-                    <div class="user__icons">
-                        <span class="user__time">13:01</span>
-                        <div class="user__badge user__badge-blank"></div>
-                    </div>
+            <div class="user__column">
+                <div class="user__icons">
+                    <span class="user__time">13:10</span>
+                    <div class="user__badge">2</div>
                 </div>
             </div>
+        </div>
 
-            <div class="user">
-                <div class="user__column">
-                    <img class="user__picture" src="img/no-user-image.jpg" />
-                    <div class="user__info">
-                        <span class="user__name">Friend 5</span>
-                        <span class="user__message">okay!</span>
-                    </div>
-                </div>
-                <div class="user__column">
-                    <div class="user__icons">
-                        <span class="user__time">12:33</span>
-                        <div class="user__badge">1</div>
-                    </div>
+        <div class="user">
+            <div class="user__column">
+                <img class="user__picture" src="img/no-user-image.jpg" />
+                <div class="user__info">
+                    <span class="user__name">Friend 4</span>
+                    <span class="user__message">see later</span>
                 </div>
             </div>
-
-            <div class="user">
-                <div class="user__column">
-                    <img class="user__picture" src="img/no-user-image.jpg" />
-                    <div class="user__info">
-                        <span class="user__name">Friend 6</span>
-                        <span class="user__message">thanks!</span>
-                    </div>
-                </div>
-                <div class="user__column">
-                    <div class="user__icons">
-                        <span class="user__time">12:11</span>
-                        <div class="user__badge user__badge-blank"></div>
-                    </div>
+            <div class="user__column">
+                <div class="user__icons">
+                    <span class="user__time">13:01</span>
+                    <div class="user__badge user__badge-blank"></div>
                 </div>
             </div>
+        </div>
 
-            <div class="user">
-                <div class="user__column">
-                    <img class="user__picture" src="img/no-user-image.jpg" />
-                    <div class="user__info">
-                        <span class="user__name">Friend 7</span>
-                        <span class="user__message">see you tomorrow</span>
-                    </div>
-                </div>
-                <div class="user__column">
-                    <div class="user__icons">
-                        <span class="user__time">10:42</span>
-                        <div class="user__badge user__badge-blank"></div>
-                    </div>
+        <div class="user">
+            <div class="user__column">
+                <img class="user__picture" src="img/no-user-image.jpg" />
+                <div class="user__info">
+                    <span class="user__name">Friend 5</span>
+                    <span class="user__message">okay!</span>
                 </div>
             </div>
-
-            <div class="user">
-                <div class="user__column">
-                    <img class="user__picture" src="img/no-user-image.jpg" />
-                    <div class="user__info">
-                        <span class="user__name">Friend 8</span>
-                        <span class="user__message">i almost there</span>
-                    </div>
-                </div>
-                <div class="user__column">
-                    <div class="user__icons">
-                        <span class="user__time">09:41</span>
-                        <div class="user__badge user__badge-blank"></div>
-                    </div>
+            <div class="user__column">
+                <div class="user__icons">
+                    <span class="user__time">12:33</span>
+                    <div class="user__badge">1</div>
                 </div>
             </div>
+        </div>
 
-            <div class="user">
-                <div class="user__column">
-                    <img class="user__picture" src="img/no-user-image.jpg" />
-                    <div class="user__info">
-                        <span class="user__name">Friend 9</span>
-                        <span class="user__message">wake up man...</span>
-                    </div>
-                </div>
-                <div class="user__column">
-                    <div class="user__icons">
-                        <span class="user__time">09:12</span>
-                        <div class="user__badge user__badge-blank"></div>
-                    </div>
+        <div class="user">
+            <div class="user__column">
+                <img class="user__picture" src="img/no-user-image.jpg" />
+                <div class="user__info">
+                    <span class="user__name">Friend 6</span>
+                    <span class="user__message">thanks!</span>
                 </div>
             </div>
-        </main>
-        <!-- Chats Page (end) -->
+            <div class="user__column">
+                <div class="user__icons">
+                    <span class="user__time">12:11</span>
+                    <div class="user__badge user__badge-blank"></div>
+                </div>
+            </div>
+        </div>
 
-        <!-- Navigation Bar (start) -->
-        <div class="navbar__margin"></div>
-        <nav class="navbar">
-            <a class="navbar__column navbar__column-nonselected" href="friends.html">
-                <i class="far fa-user"></i>
-            </a>
-            <a class="navbar__column navbar__column-selected" href="#">
-                <i class="far fa-comments"></i>
-            </a>
-            <a class="navbar__column navbar__column-nonselected" href="search.html">
-                <i class="fas fa-search"></i>
-            </a>
-            <a class="navbar__column navbar__column-nonselected" href="more.html">
-                <i class="fas fa-ellipsis-h"></i>
-            </a>
-        </nav>
-        <!-- Navigation Bar (end) -->
+        <div class="user">
+            <div class="user__column">
+                <img class="user__picture" src="img/no-user-image.jpg" />
+                <div class="user__info">
+                    <span class="user__name">Friend 7</span>
+                    <span class="user__message">see you tomorrow</span>
+                </div>
+            </div>
+            <div class="user__column">
+                <div class="user__icons">
+                    <span class="user__time">10:42</span>
+                    <div class="user__badge user__badge-blank"></div>
+                </div>
+            </div>
+        </div>
 
-        <!-- Screen Size Notice (start) -->
-        <footer class="big-screen">
+        <div class="user">
+            <div class="user__column">
+                <img class="user__picture" src="img/no-user-image.jpg" />
+                <div class="user__info">
+                    <span class="user__name">Friend 8</span>
+                    <span class="user__message">i almost there</span>
+                </div>
+            </div>
+            <div class="user__column">
+                <div class="user__icons">
+                    <span class="user__time">09:41</span>
+                    <div class="user__badge user__badge-blank"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="user">
+            <div class="user__column">
+                <img class="user__picture" src="img/no-user-image.jpg" />
+                <div class="user__info">
+                    <span class="user__name">Friend 9</span>
+                    <span class="user__message">wake up man...</span>
+                </div>
+            </div>
+            <div class="user__column">
+                <div class="user__icons">
+                    <span class="user__time">09:12</span>
+                    <div class="user__badge user__badge-blank"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Chats Page (end) -->
+
+    <!-- Navigation Bar (start) -->
+    <div class="navbar__margin"></div>
+    <nav class="navbar">
+        <a class="navbar__column navbar__column-nonselected" href="friends.html">
+            <i class="far fa-user"></i>
+        </a>
+        <a class="navbar__column navbar__column-selected" href="#">
+            <i class="far fa-comments"></i>
+        </a>
+        <a class="navbar__column navbar__column-nonselected" href="search.html">
+            <i class="fas fa-search"></i>
+        </a>
+        <a class="navbar__column navbar__column-nonselected" href="more.html">
+            <i class="fas fa-ellipsis-h"></i>
+        </a>
+    </nav>
+    <!-- Navigation Bar (end) -->
+
+    <!-- Screen Size Notice (start) -->
+    <footer class="big-screen">
+        <div>
             <div>
-                <div>
-                    <img class="big-screen__img" src="https://upload3.inven.co.kr/upload/2020/04/30/bbs/i014570602943.gif" loop="infinite" />
-                    <span class="big-screen__text">REDUCE Screen Size<br />or...</span>
-                </div>
+                <img class="big-screen__img" src="https://upload3.inven.co.kr/upload/2020/04/30/bbs/i014570602943.gif"
+                    loop="infinite" />
+                <span class="big-screen__text">REDUCE Screen Size<br />or...</span>
             </div>
-        </footer>
-        <!-- Screen Size Notice (end) -->
-        <script src="js/clock.js"></script>
-        <script src="https://kit.fontawesome.com/e863981bbc.js" crossorigin="anonymous"></script>
-    </body>
+        </div>
+    </footer>
+    <!-- Screen Size Notice (end) -->
+    <script src="js/clock.js"></script>
+    <script src="https://kit.fontawesome.com/e863981bbc.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

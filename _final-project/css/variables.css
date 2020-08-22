@@ -4,7 +4,7 @@
     --main-background-light: rgb(73, 73, 73);
     --main-text: rgb(241, 241, 241);
     --subtitle-alpha: rgba(241, 241, 241, 0.4);
-    --statusbar-alpha: rgba(0, 0, 0, 0.3);
+    --statusbar-alpha: rgb(30, 30, 30);
     --border-up: #767676;
     --border-down: #212121;
     --badge-color: rgb(255, 67, 67);
