@@ -1,0 +1,11 @@
+.chats-page__column {
+    cursor: pointer;
+}
+
+.chats-page__column:hover {
+    background-color: var(--border-down);
+}
+
+.chats-page__column:active {
+    background-color: var(--border-up);
+}

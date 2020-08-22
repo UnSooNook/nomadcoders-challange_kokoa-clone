@@ -2,7 +2,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Welcome</title>
+        <title>Setting</title>
         <link rel="stylesheet" href="css/styles.css" />
     </head>
 
@@ -24,19 +24,22 @@
         <div class="statusbar__margin"></div>
         <!-- Status Bar (end) -->
 
-        <!--  Welcome Page (start) -->
-        <div class="welcome__header">
-            <h1>Welcome to Talk</h1>
-            <span>Create your username and Enjoy!</span>
+        <!-- Title Bar (start) -->
+        <div class="titlebar">
+            <div class="titlebar__column">
+                <a href="friends.html"><i class="fas fa-chevron-left"></i></a>
+            </div>
+            <div class="titlebar__column">
+                <span class="titlebar__title">Setting</span>
+            </div>
+            <div class="titlebar__column"></div>
         </div>
-        <form class="welcome__form" action="friends.html" method="GET">
-            <input class="welcome__input" type="text" name="username" placeholder="Username" autocomplete="off" required />
-            <input class="welcome__btn" type="submit" value="Log In" />
-        </form>
-        <span class="welcome__help">
-            <a href="#">Help</a>
-        </span>
-        <!--  Welcome Page (end) -->
+        <div class="titlebar__margin"></div>
+        <!-- Title Bar (end) -->
+
+        <!-- Setting Page (start) -->
+
+        <!-- Setting Page (end) -->
 
         <!-- Screen Size Notice (start) -->
         <footer class="big-screen">
@@ -48,9 +51,7 @@
             </div>
         </footer>
         <!-- Screen Size Notice (end) -->
-
         <script src="js/clock.js"></script>
-        <script src="js/login.js"></script>
         <script src="https://kit.fontawesome.com/e863981bbc.js" crossorigin="anonymous"></script>
     </body>
 </html>

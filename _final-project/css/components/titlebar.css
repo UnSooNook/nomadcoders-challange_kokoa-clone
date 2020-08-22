@@ -18,15 +18,32 @@
     font-weight: 700;
     text-shadow: 0em 0.1em black;
 }
+.titlebar__column {
+    width: 33%;
+}
+
+.titlebar__column:nth-child(2) {
+    text-align: center;
+}
+
+.titlebar__column:last-child {
+    text-align: right;
+}
 
 .titlebar__column i {
-    padding-left: 0.5em;
+    padding-left: 0.3em;
     cursor: pointer;
     text-shadow: 0em 0.1em black;
 }
 
 .titlebar__column i:hover {
-    color: var(--main-background);
+    color: var(--border-up);
+    transform: translateY(0.05em);
+    text-shadow: none;
+}
+
+.titlebar__column i:active {
+    color: var(--border-down);
     transform: translateY(0.05em);
     text-shadow: none;
 }

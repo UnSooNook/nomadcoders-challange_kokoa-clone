@@ -44,3 +44,25 @@
     font-size: 0.8em;
     user-select: none;
 }
+
+.advertise {
+    margin: 0.5em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    user-select: none;
+}
+
+.advertise__text {
+    padding: 1em 0em 0.5em 0.5em;
+}
+.advertise__text span {
+    color: var(--main-text);
+    font-size: 0.7em;
+}
+
+.advertise__img {
+    max-width: 100%;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
