@@ -1,18 +1,31 @@
 .setting__section__list {
-    padding: 20px 25px;
+    padding: 20px 0px;
+    margin: 0px 25px;
     border-bottom: 1px solid var(--border-down);
-    font-size: 18px;
+    font-size: 20px;
     color: var(--main-text);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+.setting__section__list:last-child {
+    border-bottom: none;
+}
 
 .setting__section__list i {
     margin-right: 20px;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .setting__section__list--column:last-child {
     opacity: 0.5;
+}
+
+.setting__line {
+    height: 50px;
+}
+
+.setting__line > div {
+    padding: 12.5px 0px;
+    border-bottom: 1px solid var(--border-up);
 }
