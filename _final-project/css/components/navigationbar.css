@@ -23,12 +23,25 @@
     background-color: var(--main-background-light);
     cursor: pointer;
     position: relative;
+    animation: navbarAppear 0.5s ease-in-out forwards;
+    transform: translateY(50px);
+    opacity: 0;
+}
+.navbar__column:nth-child(2) {
+    animation-delay: 0.075s;
+}
+.navbar__column:nth-child(3) {
+    animation-delay: 0.15s;
+}
+.navbar__column:nth-child(4) {
+    animation-delay: 0.225s;
 }
 
 .navbar__column-selected {
     background-color: var(--main-background);
-    transform: translateY(0.15em);
+    /* transform: translateY(0.15em); */
     color: var(--main-text);
+    animation-name: navbarAppearSelected;
 }
 
 .navbar__column-selected:visited {
@@ -79,9 +92,29 @@
         transform: translateY(0);
     }
     40% {
-        transform: translateY(-4px);
+        transform: translateY(-6px);
     }
     60% {
-        transform: translateY(-3px);
+        transform: translateY(-4px);
+    }
+}
+
+@keyframes navbarAppear {
+    from {
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes navbarAppearSelected {
+    from {
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0.15em);
+        opacity: 1;
     }
 }

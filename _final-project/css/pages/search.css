@@ -44,4 +44,8 @@
 .search-page__news__title img {
     max-width: 100%;
     border-radius: 1em;
+    transition: transform 0.2s;
+}
+.search-page__news__title img:hover {
+    transform: scale(1.05);
 }

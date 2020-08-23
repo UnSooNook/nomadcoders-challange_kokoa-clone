@@ -31,7 +31,7 @@
 }
 
 .titlebar__column i {
-    padding-left: 0.3em;
+    margin-left: 0.3em;
     cursor: pointer;
     text-shadow: 0em 0.1em black;
 }
@@ -52,4 +52,17 @@
     width: 100%;
     height: 6.5em;
     border-radius: 0em 0em 1em 1em;
+}
+
+.titlebar__column .fa-cog:hover {
+    animation: rotateIcon 1.5s linear infinite;
+}
+
+@keyframes rotateIcon {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
 }
