@@ -28,16 +28,16 @@ body::-webkit-scrollbar {
 }
 
 .splash-screen {
+    position: fixed;
     width: 100vw;
     height: 100vh;
-    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     top: 0;
     background-color: var(--main-background);
     animation: loading 0.3s ease-in-out forwards;
-    animation-delay: 0.7s;
+    animation-delay: 0.2s;
 }
 
 .splash-screen div {
