@@ -7,7 +7,6 @@
 
 /* pages */
 @import "pages/welcome.css";
-@import "pages/help.css";
 @import "pages/more.css";
 @import "pages/search.css";
 @import "pages/chats.css";
