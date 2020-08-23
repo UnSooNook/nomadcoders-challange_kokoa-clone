@@ -57,12 +57,3 @@
 .titlebar__column .fa-cog:hover {
     animation: rotateIcon 1.5s linear infinite;
 }
-
-@keyframes rotateIcon {
-    from {
-        transform: none;
-    }
-    to {
-        transform: rotateZ(360deg);
-    }
-}

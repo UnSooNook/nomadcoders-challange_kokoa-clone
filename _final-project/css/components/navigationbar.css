@@ -82,39 +82,3 @@
     bottom: 2em;
     animation: badgeNotice 1.5s ease-in-out infinite;
 }
-
-@keyframes badgeNotice {
-    0%,
-    20%,
-    50%,
-    80%,
-    100% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-6px);
-    }
-    60% {
-        transform: translateY(-4px);
-    }
-}
-
-@keyframes navbarAppear {
-    from {
-        opacity: 0;
-    }
-    to {
-        transform: none;
-        opacity: 1;
-    }
-}
-
-@keyframes navbarAppearSelected {
-    from {
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0.15em);
-        opacity: 1;
-    }
-}

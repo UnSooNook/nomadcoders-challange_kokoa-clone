@@ -1,0 +1,89 @@
+/* Animations for Navbar */
+
+@keyframes badgeNotice {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-6px);
+    }
+    60% {
+        transform: translateY(-4px);
+    }
+}
+
+@keyframes navbarAppear {
+    from {
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes navbarAppearSelected {
+    from {
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0.15em);
+        opacity: 1;
+    }
+}
+
+/* Animations for Titlebar */
+
+@keyframes rotateIcon {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+/* Animations for Screen-Notice */
+
+@keyframes alert {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: translateX(-1px) scale(1.05);
+    }
+    50% {
+        transform: translateX(1px) scale(1);
+    }
+    75% {
+        transform: translateX(1px) scale(1.05);
+    }
+    100% {
+        transform: translateX(0) scale(1);
+    }
+}
+
+/* Animations for Splash-Screen*/
+
+@keyframes loading {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes disappear {
+    from {
+    }
+    to {
+        width: 0px;
+        height: 0px;
+    }
+}

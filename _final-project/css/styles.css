@@ -2,6 +2,7 @@
 
 @import "reset.css";
 @import "variables.css";
+@import "animations.css";
 @import "screen-notice.css";
 
 /* pages */
@@ -65,23 +66,4 @@ body::-webkit-scrollbar {
     width: 128px;
     height: 128px;
     border-radius: 50%;
-}
-
-@keyframes loading {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-        visibility: hidden;
-    }
-}
-
-@keyframes disappear {
-    from {
-    }
-    to {
-        width: 0px;
-        height: 0px;
-    }
 }
