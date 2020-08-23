@@ -87,3 +87,47 @@
         height: 0px;
     }
 }
+
+/* Animations for Chat Page*/
+
+@keyframes chatFadeIn-toUp {
+    from {
+        transform: translateY(3em);
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes chatFadeIn-toRight {
+    from {
+        transform: translateX(-3em);
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes chatFadeIn-toLeft {
+    from {
+        transform: translateX(3em);
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes hiddenContents {
+    from {
+        visibility: hidden;
+    }
+    to {
+        visibility: hidden;
+    }
+}

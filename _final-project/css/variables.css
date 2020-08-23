@@ -12,4 +12,7 @@
     /* margins */
     --margin-statusbar: 1.5em;
     --margin-navbar: 4em;
+
+    /* Bezier */
+    --chat-animation-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
