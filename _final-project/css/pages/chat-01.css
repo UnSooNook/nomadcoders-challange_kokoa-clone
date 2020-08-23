@@ -1,0 +1,128 @@
+.chat-page {
+    margin: 0em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat-page__timestamp {
+    background-color: var(--main-background-light);
+    color: var(--subtitle-alpha);
+    padding: 0.5em 1em;
+    font-size: 0.7em;
+    border-radius: 1em;
+    margin-bottom: 2em;
+}
+
+.chat-page__message-row {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.chat-page__message-row img {
+    width: 3em;
+    height: 3em;
+    border-radius: 1.2em;
+    margin-right: 0.5em;
+}
+
+.chat-page__message-row__author {
+    display: block;
+    margin-top: 0.3em;
+    margin-bottom: 0.5em;
+    color: var(--subtitle-alpha);
+    font-size: 0.9em;
+}
+
+.chat-page__message-row__info {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 0.5em;
+}
+
+.chat-page__message-row__bubble {
+    border: 0.15em solid var(--border-up);
+    color: var(--main-text);
+    padding: 0.5em;
+    border-radius: 0.7em;
+    border-top-left-radius: 0em;
+    font-size: 0.9em;
+}
+
+.chat-page__message-row__time {
+    color: var(--main-background-light);
+    font-size: 0.8em;
+    padding: 0em 0.5em;
+}
+
+.chat-page__message-row__read {
+    font-size: 0.8em;
+    color: yellow;
+}
+
+.chat-page__message-row--own {
+    justify-content: flex-end;
+}
+
+.chat-page__message-row--own .chat-page__message-row__info {
+    flex-direction: row-reverse;
+}
+
+.chat-page__message-row--own .chat-page__message-row__bubble {
+    border-color: yellow;
+    border-radius: 0.7em;
+    border-top-right-radius: 0em;
+}
+
+.chat-reply {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--main-background-light);
+    padding: 0.5em 0.5em;
+    font-size: 1.5em;
+    box-sizing: border-box;
+}
+
+.chat-reply__column:first-child {
+    width: 7.5%;
+}
+.chat-reply__column:nth-child(2) {
+    width: 77.5%;
+}
+.chat-reply__column:last-child {
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chat-reply__column input {
+    width: 100%;
+    color: var(--main-text);
+    background-color: inherit;
+    border: none;
+    font-size: 0.8em;
+    padding: 0.2em 0.1em;
+    border-bottom: 0.1em solid var(--main-background);
+}
+
+.chat-reply i {
+    cursor: pointer;
+}
+
+.chat-reply i:hover {
+    color: var(--border-up);
+}
+
+.chat-reply i:active {
+    color: var(--border-down);
+}
+
+.chat-reply__margin {
+    background-color: white;
+    height: 10em;
+}
