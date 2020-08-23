@@ -1,164 +1,160 @@
 <html lang="kr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Setting</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Setting</title>
-    <link rel="stylesheet" href="css/styles.css" />
-</head>
-
-<body>
-    <!-- Status Bar (start) -->
-    <div class="statusbar">
-        <div class="statusbar__column">
-            <span class="statusbar__clock">00:00</span>
-            <span class="statusbar__telecom">No Service</span>
-        </div>
-        <div class="statusbar__column">
-            <i class="far fa-bell"></i>
-            <i class="fas fa-wifi"></i>
-            <i class="fab fa-bluetooth-b"></i>
-            <span class="statusbar__battery">98%</span>
-            <i class="fas fa-battery-three-quarters"></i>
-        </div>
-    </div>
-    <div class="statusbar__margin"></div>
-    <!-- Status Bar (end) -->
-
-    <!-- Title Bar (start) -->
-    <div class="titlebar">
-        <div class="titlebar__column">
-            <a href="friends.html"><i class="fas fa-chevron-left"></i></a>
-        </div>
-        <div class="titlebar__column">
-            <span class="titlebar__title">Settings</span>
-        </div>
-        <div class="titlebar__column">
-            <i class="fas fa-search"></i>
-        </div>
-    </div>
-    <div class="titlebar__margin"></div>
-    <!-- Title Bar (end) -->
-
-    <!-- Setting Page (start) -->
-    <div class="setting">
-        <ul class="setting__section">
-            <li class="setting__section__list">
-                <div class="setting__section__list--column">
-                    <i class="fas fa-bullhorn"></i>
-                    <span class="setting__section__list__name">Notices</span>
-                </div>
-                <div class="setting__section__list--column"></div>
-            </li>
-            <li class="setting__section__list">
-                <div class="setting__section__list--column">
-                    <i class="fas fa-flask"></i>
-                    <span class="setting__section__list__name">Kakao Lab</span>
-                </div>
-                <div class="setting__section__list--column"></div>
-            </li>
-            <li class="setting__section__list">
-                <div class="setting__section__list--column">
-                    <i class="fas fa-info-circle"></i>
-                    <span class="setting__section__list__name">Version</span>
-                </div>
-                <div class="setting__section__list--column">Latest Version</div>
-            </li>
-        </ul>
-
-        <div class="setting__line">
-            <div></div>
-        </div>
-
-        <ul class="setting__section">
-            <li class="setting__section__list">
-                <div class="setting__section__list--column">
-                    <i class="fas fa-lock"></i>
-                    <span class="setting__section__list__name">Privacy</span>
-                </div>
-                <div class="setting__section__list--column"></div>
-            </li>
-            <li class="setting__section__list">
-                <div class="setting__section__list--column">
-                    <i class="far fa-bell"></i>
-                    <span class="setting__section__list__name">Notifications</span>
-                </div>
-                <div class="setting__section__list--column"></div>
-            </li>
-            <li class="setting__section__list">
-                <div class="setting__section__list--column">
-                    <i class="far fa-user"></i>
-                    <span class="setting__section__list__name">Friends</span>
-                </div>
-                <div class="setting__section__list--column"></div>
-            </li>
-            <li class="setting__section__list">
-                <div class="setting__section__list--column">
-                    <i class="far fa-comments"></i>
-                    <span class="setting__section__list__name">Chats</span>
-                </div>
-                <div class="setting__section__list--column"></div>
-            </li>
-            <li class="setting__section__list">
-                <div class="setting__section__list--column">
-                    <i class="fas fa-brush"></i>
-                    <span class="setting__section__list__name">Themes</span>
-                </div>
-                <div class="setting__section__list--column">Dark theme</div>
-            </li>
-            <li class="setting__section__list">
-                <div class="setting__section__list--column">
-                    <i class="fas fa-phone-alt"></i>
-                    <span class="setting__section__list__name">Call</span>
-                </div>
-                <div class="setting__section__list--column"></div>
-            </li>
-            <li class="setting__section__list">
-                <div class="setting__section__list--column">
-                    <i class="far fa-star"></i>
-                    <span class="setting__section__list__name">Gamestar</span>
-                </div>
-                <div class="setting__section__list--column"></div>
-            </li>
-            <li class="setting__section__list">
-                <div class="setting__section__list--column">
-                    <i class="fas fa-ellipsis-h"></i>
-                    <span class="setting__section__list__name">Advanced Features</span>
-                </div>
-                <div class="setting__section__list--column"></div>
-            </li>
-        </ul>
-
-        <div class="setting__line">
-            <div></div>
-        </div>
-
-        <ul class="setting__section">
-            <li class="setting__section__list">
-                <div class="setting__section__list--column">
-                    <i class="far fa-question-circle"></i>
-                    <span class="setting__section__list__name">Support</span>
-                </div>
-                <div class="setting__section__list--column"></div>
-            </li>
-        </ul>
-
-    </div>
-    <!-- Setting Page (end) -->
-
-    <!-- Screen Size Notice (start) -->
-    <footer class="big-screen">
-        <div>
-            <div>
-                <img class="big-screen__img" src="https://upload3.inven.co.kr/upload/2020/04/30/bbs/i014570602943.gif"
-                    loop="infinite" />
-                <span class="big-screen__text">REDUCE Screen Size<br />or...</span>
+    <body>
+        <!-- Status Bar (start) -->
+        <div class="statusbar">
+            <div class="statusbar__column">
+                <span class="statusbar__clock">00:00</span>
+                <span class="statusbar__telecom">No Service</span>
+            </div>
+            <div class="statusbar__column">
+                <i class="far fa-bell"></i>
+                <i class="fas fa-wifi"></i>
+                <i class="fab fa-bluetooth-b"></i>
+                <span class="statusbar__battery">98%</span>
+                <i class="fas fa-battery-three-quarters"></i>
             </div>
         </div>
-    </footer>
-    <!-- Screen Size Notice (end) -->
-    <script src="js/clock.js"></script>
-    <script src="https://kit.fontawesome.com/e863981bbc.js" crossorigin="anonymous"></script>
-</body>
+        <div class="statusbar__margin"></div>
+        <!-- Status Bar (end) -->
 
+        <!-- Title Bar (start) -->
+        <div class="titlebar">
+            <div class="titlebar__column">
+                <a href="friends.html"><i class="fas fa-chevron-left"></i></a>
+            </div>
+            <div class="titlebar__column">
+                <span class="titlebar__title">Settings</span>
+            </div>
+            <div class="titlebar__column">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+        <div class="titlebar__margin"></div>
+        <!-- Title Bar (end) -->
+
+        <!-- Setting Page (start) -->
+        <div class="setting">
+            <ul class="setting__section">
+                <li class="setting__section__list">
+                    <div class="setting__section__list--column">
+                        <i class="fas fa-bullhorn"></i>
+                        <span class="setting__section__list__name">Notices</span>
+                    </div>
+                    <div class="setting__section__list--column"></div>
+                </li>
+                <li class="setting__section__list">
+                    <div class="setting__section__list--column">
+                        <i class="fas fa-flask"></i>
+                        <span class="setting__section__list__name">Kakao Lab</span>
+                    </div>
+                    <div class="setting__section__list--column"></div>
+                </li>
+                <li class="setting__section__list">
+                    <div class="setting__section__list--column">
+                        <i class="fas fa-info-circle"></i>
+                        <span class="setting__section__list__name">Version</span>
+                    </div>
+                    <div class="setting__section__list--column">Latest Version</div>
+                </li>
+            </ul>
+
+            <div class="setting__line">
+                <div></div>
+            </div>
+
+            <ul class="setting__section">
+                <li class="setting__section__list">
+                    <div class="setting__section__list--column">
+                        <i class="fas fa-lock"></i>
+                        <span class="setting__section__list__name">Privacy</span>
+                    </div>
+                    <div class="setting__section__list--column"></div>
+                </li>
+                <li class="setting__section__list">
+                    <div class="setting__section__list--column">
+                        <i class="far fa-bell"></i>
+                        <span class="setting__section__list__name">Notifications</span>
+                    </div>
+                    <div class="setting__section__list--column"></div>
+                </li>
+                <li class="setting__section__list">
+                    <div class="setting__section__list--column">
+                        <i class="far fa-user"></i>
+                        <span class="setting__section__list__name">Friends</span>
+                    </div>
+                    <div class="setting__section__list--column"></div>
+                </li>
+                <li class="setting__section__list">
+                    <div class="setting__section__list--column">
+                        <i class="far fa-comments"></i>
+                        <span class="setting__section__list__name">Chats</span>
+                    </div>
+                    <div class="setting__section__list--column"></div>
+                </li>
+                <li class="setting__section__list">
+                    <div class="setting__section__list--column">
+                        <i class="fas fa-brush"></i>
+                        <span class="setting__section__list__name">Themes</span>
+                    </div>
+                    <div class="setting__section__list--column">Dark theme</div>
+                </li>
+                <li class="setting__section__list">
+                    <div class="setting__section__list--column">
+                        <i class="fas fa-phone-alt"></i>
+                        <span class="setting__section__list__name">Call</span>
+                    </div>
+                    <div class="setting__section__list--column"></div>
+                </li>
+                <li class="setting__section__list">
+                    <div class="setting__section__list--column">
+                        <i class="far fa-star"></i>
+                        <span class="setting__section__list__name">Gamestar</span>
+                    </div>
+                    <div class="setting__section__list--column"></div>
+                </li>
+                <li class="setting__section__list">
+                    <div class="setting__section__list--column">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <span class="setting__section__list__name">Advanced Features</span>
+                    </div>
+                    <div class="setting__section__list--column"></div>
+                </li>
+            </ul>
+
+            <div class="setting__line">
+                <div></div>
+            </div>
+
+            <ul class="setting__section">
+                <li class="setting__section__list">
+                    <div class="setting__section__list--column">
+                        <i class="far fa-question-circle"></i>
+                        <span class="setting__section__list__name">Support</span>
+                    </div>
+                    <div class="setting__section__list--column"></div>
+                </li>
+            </ul>
+        </div>
+        <!-- Setting Page (end) -->
+
+        <!-- Screen Size Notice (start) -->
+        <footer class="big-screen">
+            <div>
+                <div>
+                    <img class="big-screen__img" src="img/reduce-screen.gif" loop="infinite" />
+                    <span class="big-screen__text">REDUCE Screen Size<br />or...</span>
+                </div>
+            </div>
+        </footer>
+        <!-- Screen Size Notice (end) -->
+        <script src="js/clock.js"></script>
+        <script src="https://kit.fontawesome.com/e863981bbc.js" crossorigin="anonymous"></script>
+    </body>
 </html>

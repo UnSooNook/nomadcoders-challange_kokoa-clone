@@ -1,180 +1,175 @@
 <html lang="kr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Friends</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends</title>
-    <link rel="stylesheet" href="css/styles.css" />
-</head>
-
-<body>
-    <!-- Status Bar (start) -->
-    <div class="statusbar">
-        <div class="statusbar__column">
-            <span class="statusbar__clock">00:00</span>
-            <span class="statusbar__telecom">No Service</span>
-        </div>
-        <div class="statusbar__column">
-            <i class="far fa-bell"></i>
-            <i class="fas fa-wifi"></i>
-            <i class="fab fa-bluetooth-b"></i>
-            <span class="statusbar__battery">98%</span>
-            <i class="fas fa-battery-three-quarters"></i>
-        </div>
-    </div>
-    <div class="statusbar__margin"></div>
-    <!-- Status Bar (end) -->
-
-    <!-- Title Bar (start) -->
-    <div class="titlebar">
-        <div class="titlebar__column">
-            <span class="titlebar__title">Friends</span>
-        </div>
-        <div class="titlebar__column">
-            <i class="fas fa-search"></i>
-            <i class="fas fa-plus"></i>
-            <a href="setting.html"><i class="fas fa-cog"></i></a>
-        </div>
-    </div>
-    <div class="titlebar__margin"></div>
-    <!-- Title Bar (end) -->
-
-    <!-- Friends Page (start) -->
-    <main class="friends-page">
-        <div class="user">
-            <div class="user__column">
-                <img class="user__picture user__picture-lg" src="img/no-user-image.jpg" />
-                <div class="user__info">
-                    <span class="user__name user__name-bold username">Username</span>
-                </div>
+    <body>
+        <!-- Status Bar (start) -->
+        <div class="statusbar">
+            <div class="statusbar__column">
+                <span class="statusbar__clock">00:00</span>
+                <span class="statusbar__telecom">No Service</span>
+            </div>
+            <div class="statusbar__column">
+                <i class="far fa-bell"></i>
+                <i class="fas fa-wifi"></i>
+                <i class="fab fa-bluetooth-b"></i>
+                <span class="statusbar__battery">98%</span>
+                <i class="fas fa-battery-three-quarters"></i>
             </div>
         </div>
+        <div class="statusbar__margin"></div>
+        <!-- Status Bar (end) -->
 
-        <div class="page-line">
-            <span>New Friends</span>
-        </div>
-
-        <div class="user">
-            <div class="user__column">
-                <img class="user__picture" src="img/profile-angmond.jpg" />
-                <div class="user__info">
-                    <span class="user__name">앙몬드</span>
-                    <span class="user__message">초콜릿...♥</span>
-                </div>
+        <!-- Title Bar (start) -->
+        <div class="titlebar">
+            <div class="titlebar__column">
+                <span class="titlebar__title">Friends</span>
+            </div>
+            <div class="titlebar__column">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-plus"></i>
+                <a href="setting.html"><i class="fas fa-cog"></i></a>
             </div>
         </div>
-        <div class="user">
-            <div class="user__column">
-                <img class="user__picture" src="img/profile-scappy.jpg" />
-                <div class="user__info">
-                    <span class="user__name">스카피</span>
-                    <span class="user__message">고기 먹으러 가자!</span>
+        <div class="titlebar__margin"></div>
+        <!-- Title Bar (end) -->
+
+        <!-- Friends Page (start) -->
+        <main class="friends-page">
+            <div class="user">
+                <div class="user__column">
+                    <img class="user__picture user__picture-lg" src="img/no-user-image.jpg" />
+                    <div class="user__info">
+                        <span class="user__name user__name-bold username">Username</span>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="page-line">
-            <span>Favorite</span>
-        </div>
+            <div class="page-line">
+                <span>New Friends</span>
+            </div>
 
-        <div class="user">
-            <div class="user__column">
-                <img class="user__picture" src="img/profile-penda-jr.png" />
-                <div class="user__info">
-                    <span class="user__name">펜다 주니어</span>
-                    <span class="user__message">저 외계인 아님니다!</span>
+            <div class="user">
+                <div class="user__column">
+                    <img class="user__picture" src="img/profile-angmond.jpg" />
+                    <div class="user__info">
+                        <span class="user__name">앙몬드</span>
+                        <span class="user__message">초콜릿...♥</span>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="user">
-            <div class="user__column">
-                <img class="user__picture" src="img/profile-jordy.jpg" />
-                <div class="user__info">
-                    <span class="user__name">조르디</span>
-                    <span class="user__message">훗</span>
+            <div class="user">
+                <div class="user__column">
+                    <img class="user__picture" src="img/profile-scappy.jpg" />
+                    <div class="user__info">
+                        <span class="user__name">스카피</span>
+                        <span class="user__message">고기 먹으러 가자!</span>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="page-line">
-            <span>Friends</span>
-        </div>
+            <div class="page-line">
+                <span>Favorite</span>
+            </div>
 
-        <div class="user">
-            <div class="user__column">
-                <img class="user__picture" src="img/profile-bbanya.jpg" />
-                <div class="user__info">
-                    <span class="user__name">빠냐</span>
+            <div class="user">
+                <div class="user__column">
+                    <img class="user__picture" src="img/profile-penda-jr.png" />
+                    <div class="user__info">
+                        <span class="user__name">펜다 주니어</span>
+                        <span class="user__message">저 외계인 아님니다!</span>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="user">
-            <div class="user__column">
-                <img class="user__picture" src="img/profile-cob.jpg" />
-                <div class="user__info">
-                    <span class="user__name">콥</span>
-                    <span class="user__message">탐정필요하신분 ~!</span>
+            <div class="user">
+                <div class="user__column">
+                    <img class="user__picture" src="img/profile-jordy.jpg" />
+                    <div class="user__info">
+                        <span class="user__name">조르디</span>
+                        <span class="user__message">훗</span>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="user">
-            <div class="user__column">
-                <img class="user__picture" src="img/profile-kero-berony.jpg" />
-                <div class="user__info">
-                    <span class="user__name">케로 베로니</span>
-                    <span class="user__message">베로니가 답장해줘요~</span>
+
+            <div class="page-line">
+                <span>Friends</span>
+            </div>
+
+            <div class="user">
+                <div class="user__column">
+                    <img class="user__picture" src="img/profile-bbanya.jpg" />
+                    <div class="user__info">
+                        <span class="user__name">빠냐</span>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
-    <!-- Friends Page (end) -->
+            <div class="user">
+                <div class="user__column">
+                    <img class="user__picture" src="img/profile-cob.jpg" />
+                    <div class="user__info">
+                        <span class="user__name">콥</span>
+                        <span class="user__message">탐정필요하신분 ~!</span>
+                    </div>
+                </div>
+            </div>
+            <div class="user">
+                <div class="user__column">
+                    <img class="user__picture" src="img/profile-kero-berony.jpg" />
+                    <div class="user__info">
+                        <span class="user__name">케로 베로니</span>
+                        <span class="user__message">베로니가 답장해줘요~</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Friends Page (end) -->
 
-    <!-- Navigation Bar (start) -->
-    <div class="navbar__margin"></div>
-    <nav class="navbar">
-        <a class="navbar__column navbar__column-selected" href="#">
-            <i class="far fa-user"></i>
-        </a>
-        <a class="navbar__column navbar__column-nonselected" href="chats.html">
-            <span class="navbar__badge">3</span>
-            <i class="far fa-comments"></i>
-        </a>
-        <a class="navbar__column navbar__column-nonselected" href="search.html">
-            <i class="fas fa-search"></i>
-        </a>
-        <a class="navbar__column navbar__column-nonselected" href="more.html">
-            <i class="fas fa-ellipsis-h"></i>
-        </a>
-    </nav>
-    <!-- Navigation Bar (end) -->
+        <!-- Navigation Bar (start) -->
+        <div class="navbar__margin"></div>
+        <nav class="navbar">
+            <a class="navbar__column navbar__column-selected" href="#">
+                <i class="far fa-user"></i>
+            </a>
+            <a class="navbar__column navbar__column-nonselected" href="chats.html">
+                <span class="navbar__badge">3</span>
+                <i class="far fa-comments"></i>
+            </a>
+            <a class="navbar__column navbar__column-nonselected" href="search.html">
+                <i class="fas fa-search"></i>
+            </a>
+            <a class="navbar__column navbar__column-nonselected" href="more.html">
+                <i class="fas fa-ellipsis-h"></i>
+            </a>
+        </nav>
+        <!-- Navigation Bar (end) -->
 
-    <!-- Splash Screen (start) -->
-    <section class="splash-screen">
-        <div>
+        <!-- Splash Screen (start) -->
+        <section class="splash-screen">
             <div>
-                <img class="splash-screen__img"
-                    src="https://item.kakaocdn.net/do/5e66af148396e3f6de8635afa938a6aff43ad912ad8dd55b04db6a64cddaf76d"
-                    loop="infinite" />
+                <div>
+                    <img class="splash-screen__img" src="https://item.kakaocdn.net/do/5e66af148396e3f6de8635afa938a6aff43ad912ad8dd55b04db6a64cddaf76d" loop="infinite" />
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- Splash Screen (end) -->
+        </section>
+        <!-- Splash Screen (end) -->
 
-    <!-- Screen Size Notice (start) -->
-    <footer class="big-screen">
-        <div>
+        <!-- Screen Size Notice (start) -->
+        <footer class="big-screen">
             <div>
-                <img class="big-screen__img" src="https://upload3.inven.co.kr/upload/2020/04/30/bbs/i014570602943.gif"
-                    loop="infinite" />
-                <span class="big-screen__text">REDUCE Screen Size<br />or...</span>
+                <div>
+                    <img class="big-screen__img" src="img/reduce-screen.gif" loop="infinite" />
+                    <span class="big-screen__text">REDUCE Screen Size<br />or...</span>
+                </div>
             </div>
-        </div>
-    </footer>
-    <!-- Screen Size Notice (end) -->
+        </footer>
+        <!-- Screen Size Notice (end) -->
 
-    <script src="js/clock.js"></script>
-    <script src="js/load-username.js"></script>
-    <script src="https://kit.fontawesome.com/e863981bbc.js" crossorigin="anonymous"></script>
-</body>
-
+        <script src="js/clock.js"></script>
+        <script src="js/load-username.js"></script>
+        <script src="https://kit.fontawesome.com/e863981bbc.js" crossorigin="anonymous"></script>
+    </body>
 </html>
