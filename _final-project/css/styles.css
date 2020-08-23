@@ -10,6 +10,7 @@
 @import "pages/more.css";
 @import "pages/search.css";
 @import "pages/chats.css";
+@import "pages/setting.css";
 
 /*  components */
 @import "components/statusbar.css";
